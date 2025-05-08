@@ -2,7 +2,7 @@
 
 This project uses Facebook's [Prophet](https://facebook.github.io/prophet/) library to forecast air quality metrics, specifically relative humidity (RH), based on historical environmental sensor data.
 
-## 📊 Dataset
+## Dataset
 
 The dataset is from the [UCI Air Quality Data Set](https://archive.ics.uci.edu/ml/datasets/Air+Quality), which contains hourly averaged responses from a gas multisensor device in an Italian city over several months.
 
@@ -13,11 +13,11 @@ The dataset is from the [UCI Air Quality Data Set](https://archive.ics.uci.edu/m
   - Comma decimal points converted
   - Missing values marked as `-200` replaced with column means
 
-## 📌 Objective
+## Objective
 
 Forecast **Relative Humidity (RH)** over the next 365 hours using time series modeling with Facebook Prophet.
 
-## 🧰 Tools and Libraries
+## Tools and Libraries
 
 - Python 3.x
 - pandas
@@ -25,7 +25,7 @@ Forecast **Relative Humidity (RH)** over the next 365 hours using time series mo
 - matplotlib
 - prophet
 
-## ⚙️ Installation
+## Installation
 
 Create a virtual environment (optional but recommended) and install the dependencies:
 
